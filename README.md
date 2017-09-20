@@ -11,17 +11,17 @@ Before feeding the inputs to the network, one need to make sure that the shape o
 
 |       nn_img2num        |        my_img2num        |
 |:-----------------------:| ------------------------:|
-| ![](nn_errorVsEpoch.jpg)|![](mine_errorVsEpoch.jpg)|
+| ![](../graph/nn_errorVsEpoch.jpg)|![](../graph/mine_errorVsEpoch.jpg)|
 
 * Comparison between epoch number and the resulting accuracy between nn_img2num and my_img2num
 
 The accuracy didn't simply goes down along with increasing epoch number.
 
-![](epochVsAcc.jpg)
+![](../graph/epochVsAcc.jpg)
 
 * Comparison between epoch number and the time taken during training between nn_img2num and my_img2num
 
 It's quite straightforward that the time takes for training increases when the epoch number increases
 
-![](epochVsTime.jpg)
+![](../graph/epochVsTime.jpg)
 
